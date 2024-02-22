@@ -12,5 +12,11 @@ public class StudentMainClass {
         System.out.println(student1.getName());
         System.out.println(student1.getGpa());
 
+        System.out.println(student1);
+        student1.setName("Morgant");
+        student1.setId("1083");
+        student1.setGpa(3.99);
+        System.out.println(student1);
+
     }
 }

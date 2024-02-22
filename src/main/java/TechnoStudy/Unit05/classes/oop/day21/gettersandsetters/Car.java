@@ -23,4 +23,21 @@ public class Car {
     public int getYear() {
         return year;
     }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public void setMileage(double mileage) {
+        this.mileage = mileage;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    @Override
+    public String toString() {
+        return "It is a " + color + " car with mileage of " + mileage + " made in " + year;
+    }
 }

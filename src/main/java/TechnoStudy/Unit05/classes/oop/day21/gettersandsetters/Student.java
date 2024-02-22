@@ -12,16 +12,33 @@ public class Student {
         this.gpa = gpa;
     }
 
-    public  String getId(){
+    public String getId() {
         return id;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
-    public double getGpa(){
+    public double getGpa() {
         return gpa;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setGpa(double gpa) {
+        this.gpa = gpa;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return name + " is a student with " + gpa + " and the ID is " + id;
     }
 
 }
